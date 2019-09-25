@@ -8,7 +8,7 @@ import { SharedModule } from '../shared/shared.module';
 import { JoinComponent } from './join/join.component';
 import { MessageComponent } from './message/message.component';
 
-const config: SocketIoConfig = { url: 'http://localhost:4200', options: {} };
+const config: SocketIoConfig = { url: 'http://localhost:3000', options: {} };
 
 @NgModule({
   imports: [
